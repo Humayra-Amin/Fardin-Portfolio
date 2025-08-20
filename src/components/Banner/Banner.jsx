@@ -20,7 +20,7 @@ const Banner = () => {
 
                 {/* Right Section */}
                 <div className="text-center lg:text-left">
-                    <p className="text-gray-400 text-sm">A Designer who</p>
+                    <p className="text-gray-400 text-xl">A Designer who</p>
                     <h1 className="text-3xl sm:text-4xl font-bold mt-2">
                         Believes good design is invisible <br />
                         but {" "}
