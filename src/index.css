@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Mozilla+Headline:wght@200..700&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+.federant {
+    font-family: "Federant", serif;
+  }
+
+.mozilla{
+    font-family: "Mozilla Headline", sans-serif;
+  }
