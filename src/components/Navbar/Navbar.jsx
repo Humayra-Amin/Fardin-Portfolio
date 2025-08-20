@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/images/logo.png'
+import { FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
     const links = <>
@@ -34,7 +35,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-[#513279] border border-[#513279] rounded-3xl text-white lg:mr-56">Download CV</a>
+                    <a href="https://drive.google.com/uc?export=download&id=161qAlwZK46ug75cLosScAX0qQJ1tyg4L"
+                        download="Fardin_Farabi_Chowdhury_CV.pdf">
+                        <button className="btn bg-[#513279] border border-[#513279] rounded-3xl text-white lg:mr-56">
+                            <FaDownload /> Download CV
+                        </button>
+                    </a>
+
                 </div>
             </div>
         </div>

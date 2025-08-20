@@ -9,7 +9,7 @@ const Banner = () => {
 
                 {/* Left Section */}
                 <div className="flex flex-col items-center lg:items-start">
-                    <img src={profile} className="w-40 h-40 lg:w-48 lg:h-52 rounded-full shadow-[0_0_50px_15px_rgba(168,85,247,0.7)]"/>
+                    <img src={profile} className="w-40 h-40 lg:w-48 lg:h-56 rounded-full shadow-[0_0_80px_20px_rgba(168,85,247,0.7)]"/>
                     <p className="text-sm text-gray-300 mt-6">
                         Hello! I am{" "}
                         <span className="text-purple-400 font-semibold">
