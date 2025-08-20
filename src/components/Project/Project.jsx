@@ -63,7 +63,7 @@ const Project = () => {
         <div className="bg-[#251C31] py-10">
             <h2 className="text-center text-3xl lg:text-4xl font-bold text-white mb-20 federant">My Projects</h2>
 
-            <div className="w-11/12 mx-auto">
+            <div className="w-11/12 mx-auto shadow-[0_0_50px_15px_rgba(168,85,247,0.7)] rounded-xl">
                 <Swiper
                     modules={[Autoplay, Pagination]}
                     autoplay={{ delay: 2500, disableOnInteraction: false }}

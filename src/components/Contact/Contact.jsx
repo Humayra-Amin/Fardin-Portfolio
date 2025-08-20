@@ -8,7 +8,7 @@ const Contact = () => {
 
                 {/* Left Side - Info */}
                 <div className="text-white space-y-6">
-                    <h2 className="text-4xl font-bold text-primary">Get in Touch</h2>
+                    <h2 className="text-4xl font-bold text-purple-500">Get in Touch</h2>
                     <p className="text-gray-300 text-lg">
                         I’d love to hear from you! Whether you have a question, a project idea,
                         or just want to say hello, feel free to drop me a message.
@@ -17,15 +17,15 @@ const Contact = () => {
 
                     <div className="space-y-4 mt-6">
                         <div className="flex items-center space-x-4">
-                            <FaEnvelope className="text-primary text-xl" />
+                            <FaEnvelope className="text-purple-500 text-xl" />
                             <span className="text-gray-300">fardinfarabi1998@gmail.com</span>
                         </div>
                         <div className="flex items-center space-x-4">
-                            <FaPhoneAlt className="text-primary text-xl" />
+                            <FaPhoneAlt className="text-purple-500 text-xl" />
                             <span className="text-gray-300">+8801878131404</span>
                         </div>
                         <div className="flex items-center space-x-4">
-                            <FaMapMarkerAlt className="text-primary text-xl" />
+                            <FaMapMarkerAlt className="text-purple-500 text-xl" />
                             <span className="text-gray-300">Chittagong, Bangladesh</span>
                         </div>
                     </div>
