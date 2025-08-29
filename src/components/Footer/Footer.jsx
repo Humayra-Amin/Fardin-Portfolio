@@ -6,7 +6,7 @@ import { FaBehance, FaFacebook, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
-            <footer className="footer flex flex-col items-center justify-center bg-[#251C31] text-base-content rounded p-10">
+            <footer className="footer flex flex-col items-center justify-center bg-[#251C31] text-base-content p-10">
 
                 {/* Logo */}
                 <Link to='/' className="flex items-center justify-center">
